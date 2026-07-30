@@ -223,7 +223,7 @@
     cursor: zoom-in;
   }
   .shots img:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
-  .shots.one { grid-template-columns: 1fr; }
+  .shots.one { grid-template-columns: minmax(0, 480px); justify-content: center; }
   @media (max-width: 560px) { .shots { grid-template-columns: 1fr; } }
 
   /* testimonials */
